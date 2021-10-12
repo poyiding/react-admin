@@ -10,6 +10,8 @@ const { REACT_APP_ENV } = process.env;
 export default defineConfig({
   title: '项目文档', // /~docs 文档title
   hash: true,
+  // https://umijs.org/zh-CN/config#mfsu
+  mfsu: {},
   // antd: {},
   dva: false,
   layout: {
