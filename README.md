@@ -1,6 +1,8 @@
-# 项目初始化
+# 项目介绍
 
 基于[Ant Design Pro](https://pro.ant.design) V5 模板进行改造开发。
+
+用户名：admin 密码：888888
 
 ## Environment Prepare
 
