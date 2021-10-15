@@ -85,7 +85,9 @@ export const layout: RunTimeLayoutConfig = ({ initialState }) => {
     ...initialState?.settings,
   };
 };
-
+message.config({
+  maxCount: 1, // 最多提示1个
+});
 const codeMessage = {
   200: '服务器成功返回请求的数据。',
   201: '新建或修改数据成功。',

@@ -53,8 +53,8 @@ const UserList: React.FC = () => {
   return (
     <>
       <Descriptions title="基本信息">
-        <Descriptions.Item label="部门名称">{deptInfo.simpleName}</Descriptions.Item>
-        <Descriptions.Item label="部门名称">{deptInfo.type}</Descriptions.Item>
+        <Descriptions.Item label="部门名称">{deptInfo?.simpleName}</Descriptions.Item>
+        <Descriptions.Item label="部门名称">{deptInfo?.type}</Descriptions.Item>
       </Descriptions>
       <ProTable
         columns={columns}

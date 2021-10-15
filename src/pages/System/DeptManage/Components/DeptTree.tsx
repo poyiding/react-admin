@@ -26,8 +26,10 @@ const DeptTree: React.FC = () => {
   };
   const initFetch = async () => {
     const treeList = await fetchTreeData();
-
-    await fetchDeptInfo(treeList[0].key);
+    if (!treeList) {
+      return;
+    }
+    await fetchDeptInfo(treeList[0]?.key);
     // 设置当前选中节点
     setSelectedNode({
       nodeKey: treeList[0].key,
