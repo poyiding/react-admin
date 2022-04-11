@@ -1,6 +1,6 @@
 # 项目介绍
 
-基于[Ant Design Pro](https://pro.ant.design) V5 模板进行改造开发。
+基于[Ant Design Pro](https://pro.ant.design) V5 模板进行改造开发，同时也是作为[majia-cli](https://github.com/poyiding/majia-cli)脚手架的模板。
 
 用户名：admin 密码：888888
 
@@ -15,7 +15,7 @@ npm install
 or
 
 ```bash
-yarn
+yarn install
 ```
 
 ## Provided Scripts
